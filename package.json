@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "build:dev": "webpack --mode=development --watch"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "babel-loader": "^8.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
     "redux": "^4.0.5",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
